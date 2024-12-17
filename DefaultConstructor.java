@@ -9,3 +9,4 @@ class DefaultConstructor
 		DefaultConstructor d=new DefaultConstructor();
 	}
 }
+// adfsg
