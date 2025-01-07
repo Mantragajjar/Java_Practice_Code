@@ -8,7 +8,7 @@ public class BuffReader {
         try(BufferedReader Reader = new BufferedReader(new FileReader(FilePath)))
         {
             String Line;
-            while((Line=Reader.readLine())!=null)
+            if((Line=Reader.readLine())!=null)
             {
                 System.out.println(Line);
             }
