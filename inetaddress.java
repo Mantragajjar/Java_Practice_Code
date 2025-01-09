@@ -10,7 +10,7 @@ public class inetaddress {
         String ipAddress = sc.nextLine();
 
         // split the IP address into parts
-        String[] parts = ipAddress.split("//.");
+        String[] parts = ipAddress.split("\\.");
 
         // check if it has 4 parts
         if(parts.length!=4)
