@@ -1,21 +1,14 @@
 import java.lang.*;
 import java.util.Scanner;
  
-// Driver class
 public class Calc 
 {
-    // main function
-    public static void main(String[] args)
+    public static void main(String args[])
     {
-        // Stores two numbers
         double num1, num2;
- 
-        // Take input from the user
         Scanner sc = new Scanner(System.in);
- 
         System.out.println("Enter the numbers:");
  
-        // Take the inputs
         num1 = sc.nextDouble();
         num2 = sc.nextDouble();
  
@@ -49,7 +42,6 @@ public class Calc
             default:
                 System.out.println("You enter wrong input");
         }
- 
         System.out.println("The final result:");
         System.out.println();
  

@@ -1,3 +1,4 @@
+// in java language you can not override the contructor 
 class a
 {
 	sum(int x,int y)
@@ -5,7 +6,7 @@ class a
 		System.out.println((x+y));
 	}
 }
-class b 
+class b extends a
 {
 	sum(int x,int y)
 	{

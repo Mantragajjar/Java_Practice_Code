@@ -18,6 +18,5 @@ class MethodOverRiding
 	{
 		Animal d=new Dog();
 		d.sound();
-		d.sound();
 	}
 }
